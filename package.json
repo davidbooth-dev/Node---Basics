@@ -1,0 +1,22 @@
+{
+	"name": "fcc-learn-node-with-express",
+	"description": "FCC Node Module",
+	"version": "0.1.0",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"express": "^4.14.0",
+		"nodemon": "^2.0.4"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodenv . server.js --exec nodemon"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"devDependencies": {
+		"node-env-run": "^3.0.2"
+	}
+}
